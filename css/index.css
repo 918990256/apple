@@ -1,0 +1,717 @@
+@import url('base.css');
+/* 头部 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header main{
+	/* width: 976px; */
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main div{
+	font-size: 10px;
+	color: #a8a8aa;
+}
+/* 导航 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+nav ul{
+	/* width: 976px; */
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #fff;
+}
+/* 列表1 */
+.listBox,.listBox ul li{
+	width: 100%;
+	background: #fafafa;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.iPhoneX h1{
+	color: #111111;
+	font-weight: bold;
+	text-align: center;
+}
+.iPhoneX h2{
+	color: #111111;
+	text-align: center;
+}
+.iPhoneX div{
+	position: absolute;
+	left: 0;
+	right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 列表2 */
+.listBox2,.listBox2 ul li{
+	width: 100%;
+	background: #b00e23;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.iPhone8 h1{	
+	border: 1px solid #fff;
+	border-radius: 5px;	
+	color: #fff;
+	text-align: center;	
+}
+.iPhone8 h2{	
+	color: #fff;
+	text-align: center;	
+	font-weight: bold;
+}
+.iPhone8 h3{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.iPhone8 h3 a{
+	color: #fff;
+}
+.iPhone8 div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+}
+/* 列表3 */
+.listBox3,.listBox3 ul li{
+	width: 100%;
+	background: #f5f5f5;
+	position: relative;
+	overflow: hidden;
+}
+.iPad h1{
+	color: #111111;
+	font-weight: bold;
+	text-align: center;
+}
+.iPad h2{
+	color: #111111;
+	text-align: center;
+}
+.iPad div{
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 项目4 */
+.listBox4,.listBox4 ul{
+	width: 100%;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.listBox4 ul{
+	margin-bottom: 0;
+}
+.listBox4 ul li{	
+	background: #fafafa;
+	box-sizing: border-box;	
+	position: relative;
+}
+.Box4l{
+	border-top: 12px solid #fff;
+	border-left: 12px solid #fff;
+	border-right: 12px solid #fff;
+}
+.Box4r{
+	border-top: 12px solid #fff;
+	border-right: 12px solid #fff;
+}
+.listBox4 ul li h1{	
+	color: #111;
+	text-align: center;	
+	font-weight: bold;
+}
+.listBox4 ul li h2{
+	color: #111;
+	text-align: center;	
+}
+.listBox4 ul li div{	
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+}
+footer .ft{
+	/* width: 980px; */
+	height: auto;
+	padding-top: 35px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+footer .ft .fttop{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+footer .ft .fttop .ft1,.ft2,.ft3,.ft4,.ft5{
+	width: 20%;
+	height: 100%;
+	font-size: 10px;
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.fttop ul li h1{
+	font-weight: bold;
+	color: #333333;
+}
+.fttop ul li a{
+	/* display: block; */
+	color: #555555;
+}
+.ftcenter{
+	width: 100%;
+	height: 30px;	
+	font-size: 10px;
+	line-height: 30px;
+}
+.ftcenter p{
+	color: #888888;
+}
+.ftcenter a{
+	color: #0083d5;
+}
+.ftbottom{
+	width: 100%;
+	height: 60px;
+	margin-top: 5px;
+	font-size: 10px;
+	line-height: 24px;
+	color: #888888;	
+}
+.ftbottom h1{
+	float: left;
+	margin-right: 26px;
+}
+.ftbottom ul{
+/* 	float: left; */
+	height: 24px;
+}
+.ftbottom li{
+	float: left;
+	height: 15px;
+	color: #555555;
+	margin: 4px 10px 5px 0;
+	border-right: 1px solid #d6d6d6;
+	line-height: 15px;
+	padding-right: 10px;
+}
+.ftbottom a:last-child li{
+	border-right: none;	
+}
+.ftbottom div{
+	width: auto;
+	height: 24px;
+	float: right;
+}
+.flag{
+	width: 16px;
+	height: 16px;
+	background: url('../img/china.png') no-repeat;
+	padding-right: 5px;
+	float: left;
+	margin-top: 3px;
+}
+.ftbottom div a span{
+	font-size: 10px;
+	color: #555555;
+	line-height: 24px;
+}
+.ftbottom h2 a{
+	color: #888888;
+}
+.ftmin{
+	width: 100%;
+	height: auto;
+	padding: 1px 22px 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.fttopmin{
+	width: 100%;
+	height: auto;
+}
+.fttopmin>ul>li{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #d6d6d6;
+	/* position: relative; */
+	overflow: hidden;
+}
+.fttopmin>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	font-size: 10px;
+	color: #000000;
+}
+.fttopmin>ul>li>a>h1{
+	line-height: 36px;
+}
+.fttopmin>ul>li>a>i{
+	line-height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 10px;
+	display: block;
+	transition: all 0.3s;
+}
+.hot{
+	transform: rotate(45deg);
+}
+.ftbox{
+/* 	position: absolute;
+	top: 36px;
+	left: 0; */
+	padding: 5px 0 16px; 
+	
+}
+.none{
+	display: none;
+}
+.ftbox>li>a{
+	display: block;
+	padding: 6px 14px;
+	font-size: 8px;
+	color: #555;
+}
+.ftbottommin{
+	width: 100%;
+	height: 114px;
+	margin-top: 4px;
+	font-size: 10px;
+	line-height: 24px;
+	color: #888888;
+	position: relative;
+}
+.ftbottommin>div>a>span{
+	font-size: 10px;
+	color: #555555;
+	line-height: 24px;
+}
+.ftbottommin>ul{
+	float: left;
+	height: 24px;
+}
+.ftbottommin>ul>li{
+	float: left;
+	height: 15px;
+	margin: 4px 10px 5px 0;
+	border-right: 1px solid #d6d6d6;
+	line-height: 15px;
+	padding-right: 10px;
+}
+.ftbottommin>ul>li>a{
+	color: #555555;
+}
+.ftbottommin>ul>li:last-child a{
+	border-right: none;	
+}
+.ftbottommin>h2{
+	position: absolute;
+	bottom: 16px;
+	left: 0;
+}
+.ftbottommin>h2>a{
+	color: #888888;
+}
+
+/* >1024 */
+@media screen and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.navmax{
+		display: block;
+	}
+	.navmin{
+		display: none;
+	}
+	.listBox,.listBox ul li{
+		height: 692px;
+	}
+	.iPhoneX h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 116px;		
+	}
+	.iPhoneX h2{
+		font-size: 22px;
+		line-height: 62px;			
+	}
+	.iPhoneX div{
+		width: 909px;
+		height: 194px;
+		bottom: 170px;	
+		background: url('../img/iphone_x_large.jpg') no-repeat center/cover;
+	}
+	.listBox2,.listBox2 ul li{
+		height: 692px;
+	}
+	.iPhone8 h1{
+		margin: 55px auto 17px;
+		width: 76px;
+		height: 33px;
+		font-size: 14px;
+		line-height: 33px;
+	}
+	.iPhone8 h2{
+		font-size: 46px;
+		line-height: 46px;
+	}
+	.Box2min{
+		display: none;
+	}
+	.iPhone8 h3{
+		width: 200px;
+		height: 18px;
+		margin-top: 21px;
+		font-size: 18px;
+	}
+	.iPhone8 h3 a:first-child{
+		margin-right: 30px;
+	}
+	.iPhone8 h3 i{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.iPhone8 div{
+		width: 334px;
+		height: 335px;
+		background: url('../img/hero_large.png') no-repeat center/cover;
+	}
+	.listBox3,.listBox3 ul li{
+		height: 692px;
+	}
+	.iPad h1{
+		font-size: 40px;
+		line-height: 60px;
+		margin-top: 122px;
+	}
+	.iPad h2{
+		font-size: 22px;
+		line-height: 60px;
+	}
+	.Box3min{
+		display: none;
+	}
+	.iPad div{
+		width: 1068px;
+		height: 396px;
+		background: url('../img/ipad_large.jpg') no-repeat center/cover;
+	}
+	.listBox4 ul li{
+		width: 50%;
+		height: 580px;
+	}
+	.listBox4 ul li h1{
+		margin-top: 51px;
+		line-height: 45px;
+		font-size: 30px;
+	}
+	.listBox4 ul li h2{
+		font-size: 18px;
+		line-height: 45px;
+	}
+	.listBox4 ul li div{
+		width: 516px;
+		height: 430px;
+		background: url('../img/macbook_pro_large.jpg') no-repeat center/cover;	
+	}
+	footer .ft{
+		width: 980px;
+	}
+	.ftcenter{
+		margin-top: 21px;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.ftmin{
+		display: none;
+	}
+}
+/* <1024 */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding: 0 22px;
+	}
+	.navmax{
+		display: block;
+	}
+	.navmin{
+		display: none;
+	}
+	.listBox,.listBox ul li{
+		height: 650px;
+	}
+	.iPhoneX h1{
+		font-size: 32px;
+		line-height: 50px;
+		margin-top: 137px;		
+	}
+	.iPhoneX h2{
+		font-size: 20px;
+		line-height: 50px;			
+	}
+	.iPhoneX div{
+		width: 704px;
+		height: 148px;
+		bottom: 175px;	
+		background: url('../img/iphone_x_medium.jpg') no-repeat center/cover;
+	}
+	.listBox2,.listBox2 ul li{
+		height: 650px;
+	}
+	.iPhone8 h1{
+		margin: 65px auto 16px;
+		width: 75px;
+		height: 33px;
+		font-size: 14px;
+		line-height: 33px;
+	}
+	.iPhone8 h2{
+		font-size: 36px;
+		line-height: 36px;
+	}	
+	.Box2min{
+		display: none;
+	}
+	.iPhone8 h3{
+		width: 180px;
+		height: 16px;
+		margin-top: 21px;
+		font-size: 16px;
+	}
+	.iPhone8 h3 a:first-child{
+		margin-right: 26px;
+	}
+	.iPhone8 h3 i{
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.iPhone8 div{
+		width: 320px;
+		height: 327px;
+		background: url('../img/hero_medium.png') no-repeat center/cover;
+	}
+	.listBox3,.listBox3 ul li{
+		height: 651px;
+	}
+	.iPad h1{
+		font-size: 32px;
+		line-height: 48px;
+		margin-top: 149px;
+	}
+	.iPad h2{
+		font-size: 20px;
+		line-height: 48px;
+	}
+	.Box3min{
+		display: none;
+	}
+	.iPad div{
+		width: 736px;
+		height: 384px;
+		background: url('../img/ipad_medium.jpg') no-repeat center/cover;
+	}
+	.listBox4 ul li{
+		width: 50%;	
+		height: 490px;
+	}
+	.listBox4 ul li h1{
+		margin-top: 42px;
+		line-height: 36px;
+		font-size: 24px;
+	}
+	.listBox4 ul li h2{
+		position: relative;
+		z-index: 1;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.listBox4 ul li div{
+		width: 350px;
+		height: 380px;
+		background: url('../img/macbook_pro_medium.jpg') no-repeat center/cover;	
+	}
+	footer .ft{
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+	.ftcenter{
+		margin-top: 21px;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.ftmin{
+		display: none;
+	}
+}
+/* <768 */
+@media screen and (max-width: 768px){
+	.navmax{
+		display: none;
+	}
+	.navmin{
+		display: block;
+	}
+	.listBox,.listBox ul li{
+		height: 500px;
+	}
+	.iPhoneX h1{
+		font-size: 24px;
+		line-height: 36px;
+		margin-top: 41px;		
+	}
+	.iPhoneX h2{
+		font-size: 16px;
+		line-height: 41px;			
+	}	
+	.iPhoneX div{
+		width: 167px;
+		height: 333px;
+		bottom: 37px;	
+		background: url('../img/iphone_x_small.jpg') no-repeat center/cover;
+	}
+	.listBox2,.listBox2 ul li{
+		height: 500px;
+	}
+	.iPhone8 h1{
+		margin: 40px auto 14px;
+		width: 52px;
+		height: 20px;
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.iPhone8 h2{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.Box2min{
+		display: block;
+	}
+	.iPhone8 h3{
+		width: 160px;
+		height: 14px;
+		margin-top: 17px;
+		font-size: 14px;
+	}
+	.iPhone8 h3 a:first-child{
+		margin-right: 24px;
+	}
+	.iPhone8 h3 i{
+		font-size: 8px;
+		line-height: 14px;
+	}
+	.iPhone8 div{
+		width: 282px;
+		height: 327px;
+		background: url('../img/hero_small.png') no-repeat center/cover;
+	}
+	.listBox3,.listBox3 ul li{
+		height: 501px;
+	}
+	.iPad h1{
+		font-size: 24px;
+		line-height: 36px;
+		margin-top: 37px;
+	}
+	.iPad h2{
+		font-size: 16px;
+		line-height: 36px;
+	}
+	.Box3min{
+		display: block;
+	}
+	.iPad div{
+		width: 320px;
+		height: 367px;
+		background: url('../img/ipad_small.jpg') no-repeat center/cover;
+	}
+	.listBox4 ul li{
+			width: 100%;	
+			height: 500px;
+	}
+	.listBox4 ul li h1{
+		position: relative;
+		z-index: 1;
+		margin-top: 37px;
+		line-height: 36px;
+		font-size: 24px;
+	}
+	.listBox4 ul li h2{
+		position: relative;
+		z-index: 1;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.listBox4 ul li div{
+		width: 320px;
+		height: 460px;
+		background: url('../img/macbook_pro_small.jpg') no-repeat center/cover;	
+	}
+	.Box4r{
+		border-right: none;
+	}
+	.Box4l{
+		border-left: none;
+		border-right: none;
+	}
+	.ftcenter{
+		margin-top: 11px;
+		border-bottom: none;
+	}
+	.ftmin{
+		display: block;
+	}
+	.ft{
+		display: none;
+	}
+}
